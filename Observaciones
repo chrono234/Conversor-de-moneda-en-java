@@ -1,0 +1,9 @@
+Aprendisaje:
+
+Si agregamos * ala biblioteca importamos todos los elementos de ella.
+El null de abajo hace referencia a una ventana padre, como no la había se deja null
+ Object selectedValue = JOptionPane.showInputDialog(null,
+ Intanciar o llamar una instancia de una clase a otra: ConversorMonedas monedas = new ConversorMonedas(); y con
+ eso accede a los métodos de la clase en cuestion
+ valor recibido es el valor que el usuario va a pasar
+ double valorRecibido = Double.parseDouble(input); con esto lo combierte a double.
