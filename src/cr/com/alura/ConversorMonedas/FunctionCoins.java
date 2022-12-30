@@ -2,14 +2,16 @@ package cr.com.alura.ConversorMonedas;
 
 import javax.swing.JOptionPane;
 
-public class Function {
+import cr.com.alura.Principal.Principal;
+
+public class FunctionCoins extends Principal{
 
 	ConversorMonedas monedas = new ConversorMonedas();
 
 	public void ConvertirMonedas(double ValorRecibido) {
 
 		String opcion = (JOptionPane.showInputDialog(null, "Seleccione una opcion de conversión", "Menú",
-				JOptionPane.PLAIN_MESSAGE, null,
+				JOptionPane.PLAIN_MESSAGE, icono,
 				new Object[] { "De Peso Colombiano a Dólar", "De Peso Colombiano a Euro", "De Peso Colombiano a libras",
 						"De Peso Colombiano a Yenes", "De Peso Colombiano a Won Coreano", "De Dólar a Peso Colombiano",
 						"De Euro a De Peso Colombiano", "De libras a Peso Colombiano", "De yen a Peso Colombiano",
