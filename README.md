@@ -27,7 +27,7 @@ In this Project I developed a coin converter but is not limited to that it can b
 
 ## Instalation
 
-This project needs installation. You can download the folder and used with an editor like eclipse.
+This project needs installation. You can download the folder and use it with an editor like eclipse.
 
 ## Autor ✒️
 
